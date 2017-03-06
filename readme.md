@@ -12,7 +12,7 @@
 
 [ESLint](http://eslint.org/)的用法非常简单，首先在本地初始化项目，安装`ESLint`。
 
-```bash
+```sh
 npm init -y
 npm install --save eslint
 ```
@@ -51,7 +51,7 @@ a();
 
 可以执行命令先来看下运行结果。
 
-```bash
+```sh
 ./node_modules/.bin/eslint my.js
 ```
 
@@ -86,7 +86,7 @@ a();
 
 当然还需要安装依赖。
 
-```bash
+```sh
 npm install --save-dev eslint-config-google
 ```
 
